@@ -1,0 +1,70 @@
+.App {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh; }
+  .App header {
+    display: flex;
+    justify-content: center;
+    color: white; }
+  .App main {
+    display: flex;
+    justify-content: center;
+    width: 100%; }
+    .App main .tabla {
+      display: grid;
+      grid-template-columns: repeat(18, 1fr);
+      grid-gap: 2px;
+      width: 80%; }
+      .App main .tabla .elemento {
+        border: 1px solid black;
+        color: white;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .App main .tabla .elemento h2 {
+          font-size: 15px;
+          margin: 0; }
+        .App main .tabla .elemento p {
+          font-size: 7px;
+          margin: 0; }
+        .App main .tabla .elemento .atomicnumber {
+          align-self: flex-start;
+          margin: 2px 0 0 2px; }
+        .App main .tabla .elemento:nth-child(2) {
+          grid-column: 18; }
+        .App main .tabla .elemento:nth-child(5) {
+          grid-column: 13; }
+        .App main .tabla .elemento:nth-child(13) {
+          grid-column: 13; }
+        .App main .tabla .elemento:nth-child(91) {
+          grid-column: 3; }
+        .App main .tabla .elemento:nth-child(105) {
+          grid-column: 3; }
+      .App main .tabla .Reactive-nonmetal {
+        background-color: #f58021; }
+      .App main .tabla .Halogen {
+        background-color: #9fb026; }
+      .App main .tabla .Metalloid {
+        background-color: #ed1944; }
+      .App main .tabla .Alkaline-earth-metal {
+        background-color: #fdba12; }
+      .App main .tabla .Alkali-metal {
+        background-color: #002a4e; }
+      .App main .tabla .Noble-gas {
+        background-color: #006a36; }
+      .App main .tabla .Post-transition-metal {
+        background-color: #781e77; }
+      .App main .tabla .Transition-metal {
+        background-color: #0088ce; }
+      .App main .tabla .Actinide {
+        background-color: #67a484; }
+      .App main .tabla .Lanthanide {
+        background-color: #cbd48e;
+        color: black; }
+      .App main .tabla .Unknown {
+        background-color: gray;
+        color: black; }
