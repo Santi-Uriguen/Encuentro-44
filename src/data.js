@@ -14,7 +14,10 @@ export const periodictabledata = [
     tablerow18col: 1,
     tablecolumn18col: 1,
     visible: true,
+<<<<<<< HEAD
     image:"./Images/Helio.jpg"
+=======
+>>>>>>> 2f5756b4c1b16f0ef890f27ce415fa50465b2a1f
   },
   {
     name: "Helium",
@@ -31,7 +34,10 @@ export const periodictabledata = [
     tablerow18col: 1,
     tablecolumn18col: 18,
     visible: true,
+<<<<<<< HEAD
     image:"./Images/Helio.jpg"
+=======
+>>>>>>> 2f5756b4c1b16f0ef890f27ce415fa50465b2a1f
   },
   {
     name: "Lithium",
@@ -128,7 +134,10 @@ export const periodictabledata = [
     tablerow18col: 2,
     tablecolumn18col: 16,
     visible: true,
+<<<<<<< HEAD
     image:"src/Images/oxigen.png"
+=======
+>>>>>>> 2f5756b4c1b16f0ef890f27ce415fa50465b2a1f
   },
   {
     name: "Fluorine",
