@@ -1,6 +1,5 @@
 import React from "react";
 export default function Element(props) {
-<<<<<<< HEAD
   const handleHover = () => {
     const element = document.getElementById(props.name);
     element.classList.add("hovered");
@@ -24,11 +23,6 @@ export default function Element(props) {
           {props.atomicweight}
         </p>
       </div>
-=======
-  return (
-    <div className={`elemento ${props.category}`}>
-      <p className="atomicnumber">{props.atomicnumber}</p>
->>>>>>> 2f5756b4c1b16f0ef890f27ce415fa50465b2a1f
       <h2>{props.symbol}</h2>
       <p>{props.name}</p>
     </div>
