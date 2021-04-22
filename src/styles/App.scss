@@ -1,0 +1,139 @@
+.App {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  header {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    .tabla {
+      display: grid;
+      grid-template-columns: repeat(18, 1fr);
+      grid-gap: 2px;
+      width: 80%;
+      .elemento {
+        border: 1px solid black;
+        color: white;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.4s;
+        .infoUp {
+          display: flex;
+          justify-content: space-between;
+          width: 80%;
+          align-items: center;
+          padding: 0 2px;
+        }
+        h2 {
+          font-size: 15px;
+          margin: 0;
+        }
+        p {
+          margin: 0;
+          font-size: 7px;
+        }
+        &:nth-child(2) {
+          grid-column: 18;
+        }
+        &:nth-child(5) {
+          grid-column: 13;
+        }
+        &:nth-child(13) {
+          grid-column: 13;
+        }
+        &:nth-child(91) {
+          grid-column: 3;
+        }
+        &:nth-child(105) {
+          grid-column: 3;
+        }
+        &:hover {
+          transform: scale(3);
+        }
+      }
+      .hovered {
+        .infoUp {
+          .atomicnumber {
+            align-self: flex-start;
+            margin: 0;
+            font-size: 7px;
+            opacity: 1;
+          }
+          .atomicweight {
+            align-self: flex-end;
+            margin: 0;
+            font-size: 5px;
+            opacity: 1;
+          }
+        }
+        h2 {
+          font-size: 15px;
+        }
+        p{
+          opacity:1
+        }
+      }
+      .unhovered {
+        .infoUp {
+          .atomicnumber {
+            opacity: 0;
+          }
+          .atomicweight {
+            opacity: 0;
+          }
+        } h2 {
+          font-size: 20px;
+        }
+        p{
+          opacity:0
+        }
+      }
+      .Reactive-nonmetal {
+        background-color: #f58021;
+      }
+      .Halogen {
+        background-color: #9fb026;
+      }
+      .Metalloid {
+        background-color: #ed1944;
+      }
+      .Alkaline-earth-metal {
+        background-color: #fdba12;
+      }
+      .Alkali-metal {
+        background-color: #002a4e;
+      }
+      .Noble-gas {
+        background-color: #006a36;
+      }
+      .Post-transition-metal {
+        background-color: #781e77;
+      }
+      .Transition-metal {
+        background-color: #0088ce;
+      }
+      .Actinide {
+        background-color: #67a484;
+      }
+      .Lanthanide {
+        background-color: #cbd48e;
+        color: black;
+      }
+      .Unknown {
+        background-color: gray;
+        color: black;
+      }
+    }
+  }
+}
